@@ -286,7 +286,7 @@ a:hover, a:active, a:focus {
 
 /* This is my projects page */
 .main-about {
-  background: url('../images/gasworks.jpg') no-repeat;
+  background: url('../images/code.jpg') no-repeat;
 }
 
 .main-single-post {
@@ -295,7 +295,7 @@ a:hover, a:active, a:focus {
 
 /* This is my portfolio page */
 .main-gallery {
-  background: url('../images/gallery-bg.jpg') no-repeat;
+  background: url('../images/color.jpg') no-repeat;
 }
 
 .main-contact {
