@@ -126,7 +126,9 @@ a:hover, a:active, a:focus {
 .main-about,
 .main-single-post,
 .main-gallery,
-.main-contact {
+.main-contact,
+.farestart
+{
   height: 65vh;
 }
 
@@ -317,6 +319,13 @@ a:hover, a:active, a:focus {
 .main-contact {
   background: url('../images/seattle_waterfront.jpg') no-repeat;
 }
+
+.farestart {
+  background: url('../images/orange.jpg') no-repeat;
+}
+
+
+
 
 #particles-js {
   position: absolute;
@@ -753,7 +762,9 @@ footer .footer-copyright {
   .main-about,
   .main-single-post,
   .main-gallery,
-  .main-contact {
+  .main-contact
+	.farestart
+ {
     height: 35vh;
   }
 
@@ -798,4 +809,12 @@ footer .footer-copyright {
     padding-bottom: 60px;
   }
 
+}
+
+.right{
+    float:right;
+}
+
+.left{
+    float:left;
 }
