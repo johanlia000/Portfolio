@@ -14,6 +14,18 @@ body {
     overflow-x: hidden;
 }
 
+/*---------------------------------------
+    Lia Messing with column
+-----------------------------------------*/
+.lia {
+  column-count: 1;
+  column-gap: 40px;
+  column-rule-style: outset;
+  column-rule-width: 10px;
+	padding-top: 22px;
+  padding-bottom: 32px;
+}
+
 
 /*---------------------------------------
     Typorgraphy
@@ -68,7 +80,7 @@ h4 {
 }
 
 p {
-    color: #696969;
+    color: #000000;
     font-size: 14px;
     font-weight: 300;
     line-height: 26px;
@@ -127,7 +139,8 @@ a:hover, a:active, a:focus {
 .main-single-post,
 .main-gallery,
 .main-contact,
-.farestart
+.farestart,
+.dfa
 {
   height: 65vh;
 }
@@ -220,8 +233,10 @@ a:hover, a:active, a:focus {
 }
 
 .navbar-default .navbar-brand {
-  color: #555;
-  font-family: 'Merriweather', serif;
+
+	/* color: #555; */
+	color: #55
+  font-family: 'Geneva', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -321,7 +336,11 @@ a:hover, a:active, a:focus {
 }
 
 .farestart {
-  background: url('../images/orange.jpg') no-repeat;
+  background: url('../images/fancyFood.jpg') no-repeat;
+}
+
+.dfa {
+  background: url('../images/calm.jpg') no-repeat;
 }
 
 
@@ -336,7 +355,7 @@ a:hover, a:active, a:focus {
 }
 
 #home h4 {
-  color: #bfba55;
+  color: #c1e1ec;
 }
 
 #home .btn {
@@ -763,7 +782,8 @@ footer .footer-copyright {
   .main-single-post,
   .main-gallery,
   .main-contact
-	.farestart
+	.farestart,
+	.dfa
  {
     height: 35vh;
   }
@@ -810,11 +830,19 @@ footer .footer-copyright {
   }
 
 }
-
+/* This is for the layout of the prev and next buttons*/
 .right{
     float:right;
 }
 
 .left{
     float:left;
+}
+
+/*Changes font size and stuff for list details*/
+ul {
+	font-family: 'Roboto', sans-serif;
+  font-style: normal;
+	font:14px;
+	color: #696969;
 }
