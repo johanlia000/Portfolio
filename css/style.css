@@ -17,6 +17,9 @@ body {
 /*---------------------------------------
     Lia Messing with column
 -----------------------------------------*/
+
+
+/*- These are for the project pages-*/
 .oneCol {
   column-count: 1;
   column-rule-width: 10px;
@@ -43,6 +46,31 @@ body {
 	padding-top: 0px;
   padding-bottom: 32px;
 }
+
+/*- These are for the about me page-*/
+.oneColAbout {
+  column-count: 1;
+  column-rule-width: 10px;
+	padding-left: 260px;
+	padding-right: 180px;
+	padding-top: 22px;
+  padding-bottom: 32px;
+}
+
+.column-2-left {
+  width: 650px;
+  padding-left: 260px;
+  float: left;
+	margin-right: 0px;
+}
+
+.column-2-right {
+  width: 700px;
+  padding-right: 260px;
+  float: right;
+	margin-left: 0px;
+}
+
 
 /*---------------------------------------
     Typorgraphy
@@ -160,6 +188,17 @@ a:hover, a:active, a:focus {
 .dfa
 {
   height: 65vh;
+}
+
+.overlayParticles {
+  background: rgba(0,0,0,0.7);
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .overlay {
