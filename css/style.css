@@ -19,7 +19,7 @@ body {
 -----------------------------------------*/
 
 
-/*- These are for the project pages-*/
+/*- These are for the project pages!!!!!-*/
 .oneCol {
   column-count: 1;
   column-rule-width: 10px;
@@ -44,8 +44,33 @@ body {
 	padding-left: 40px;
 	padding-right: 40px;
 	padding-top: 0px;
-  padding-bottom: 32px;
+  padding-bottom: 0px;
 }
+
+.category {
+	column-count: 1;
+  column-rule-width: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.picture-2-left {
+  width: 300px;
+  padding-left: 0px;
+  float: left;
+	margin-right: 0px;
+}
+
+.picture-2-right {
+  width: 300px;
+  padding-right: 0px;
+  float: right;
+	margin-left: 0px;
+}
+
+
 
 /*- These are for the about me page-*/
 .oneColAbout {
@@ -105,6 +130,7 @@ h1 {
 
 h2 {
   font-size: 32px;
+	font-weight: bold;
 	letter-spacing: 2.5px;
 }
 
@@ -137,6 +163,10 @@ p {
   border-color: transparent;
 }
 
+
+.notbold{
+    font-weight:normal
+}​
 
 /*---------------------------------------
     General
