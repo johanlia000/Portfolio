@@ -222,7 +222,9 @@ a:hover, a:active, a:focus {
 .main-gallery,
 .main-contact,
 .farestart,
-.dfa
+.sweSalmon,
+.dfa,
+.shinyApp
 {
   height: 65vh;
 }
@@ -444,9 +446,19 @@ a:hover, a:active, a:focus {
   background: url('../images/fancyFood.jpg') no-repeat;
 }
 
+.sweSalmon {
+  background: url('../images/stream.jpg') no-repeat;
+	/* height: 80vh; */
+}
+
 .dfa {
   background: url('../images/calm.jpg') no-repeat;
 }
+
+.shinyApp {
+  background: url('../images/college.jpg') no-repeat;
+}
+
 
 
 
@@ -886,9 +898,11 @@ footer .footer-copyright {
   .main-about,
   .main-single-post,
   .main-gallery,
-  .main-contact
+  .main-contact,
 	.farestart,
-	.dfa
+	.sweSalmon,
+	.dfa,
+	.shinyApp
  {
     height: 35vh;
   }
