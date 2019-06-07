@@ -224,7 +224,8 @@ a:hover, a:active, a:focus {
 .farestart,
 .sweSalmon,
 .dfa,
-.shinyApp
+.shinyApp,
+.myPortfolio
 {
   height: 65vh;
 }
@@ -420,13 +421,13 @@ a:hover, a:active, a:focus {
 }
 
 .main-home {
-  background: url('../images/cannon_beach.jpg') no-repeat;
+  background: url('../images/background/cannon_beach.jpg') no-repeat;
   height: 100vh;
 }
 
 /* This is my projects page */
 .main-about {
-  background: url('../images/code.jpg') no-repeat;
+  background: url('../images/background/code.jpg') no-repeat;
 }
 
 .main-single-post {
@@ -435,28 +436,37 @@ a:hover, a:active, a:focus {
 
 /* This is my portfolio page */
 .main-gallery {
-  background: url('../images/color.jpg') no-repeat;
+  background: url('../images/background/color.jpg') no-repeat;
 }
 
 .main-contact {
-  background: url('../images/seattle_waterfront.jpg') no-repeat;
+  background: url('../images/background/seattle_waterfront.jpg') no-repeat;
 }
 
 .farestart {
-  background: url('../images/fancyFood.jpg') no-repeat;
+  background: url('../images/background/fancyFood.jpg') no-repeat;
+	height: 65vh
 }
 
 .sweSalmon {
-  background: url('../images/stream.jpg') no-repeat;
+  background: url('../images/background/stream.jpg') no-repeat;
 	/* height: 80vh; */
+	height: 65vh
 }
 
 .dfa {
-  background: url('../images/calm.jpg') no-repeat;
+  background: url('../images/background/calm.jpg') no-repeat;
+	height: 65vh
 }
 
 .shinyApp {
-  background: url('../images/college.jpg') no-repeat;
+  background: url('../images/background/college.jpg') no-repeat;
+	height: 65vh
+}
+
+.myPortfolio {
+  background: url('../images/background/portfolio.jpg') no-repeat;
+	height: 65vh
 }
 
 
@@ -902,7 +912,8 @@ footer .footer-copyright {
 	.farestart,
 	.sweSalmon,
 	.dfa,
-	.shinyApp
+	.shinyApp,
+	.myPortfolio
  {
     height: 35vh;
   }
