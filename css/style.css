@@ -70,6 +70,20 @@ body {
 	margin-left: 0px;
 }
 
+.icon-2-left {
+  width: 200px;
+  padding-left: 50px;
+  float: left;
+	margin-right: 0px;
+}
+
+.icon-2-right {
+  width: 400px;
+  padding-right: 0px;
+  float: right;
+	margin-left: 0px;
+}
+
 
 .columnThree {
   float: left;
