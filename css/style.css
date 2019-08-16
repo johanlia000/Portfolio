@@ -92,15 +92,44 @@ body {
 
 
 
-/*- These are for the ABOUT ME page-*/
-.oneColAbout {
-  column-count: 1;
-  column-rule-width: 10px;
-	padding-left: 20%;
-	padding-right: 20%;
-	padding-top: 22px;
-  padding-bottom: 32px;
+
+/*- These are for the PROJECT OVERVIEW page!!!!!-*/
+
+.columnSides{
+	 float: left;
+	 width: 30%;
+ }
+
+.column-center {
+	float: left;
+	width: 30%;
+	margin-left: 5%;
+	margin-right: 5%;
 }
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+	.columnSides {
+		width: 100%;
+		padding-left: 10%;
+		padding-right: 10%;
+	  float: left;
+		margin-right: 0px;
+	}
+
+	.column-center {
+		width: 100%;
+		padding-left: 10%;
+		padding-right: 10%;
+	  float: left;
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+
+}
+
+
+/*- These are for the ABOUT ME page-*/
 
 .column-2-left {
   width: 50%;
