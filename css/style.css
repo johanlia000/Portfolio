@@ -238,6 +238,7 @@ a:hover, a:active, a:focus {
 .farestart,
 .sweSalmon,
 .dfa,
+.emotionPosters,
 .shinyApp,
 .myPortfolio
 {
@@ -475,6 +476,11 @@ a:hover, a:active, a:focus {
 
 .dfa {
   background: url('../images/background/calm.jpg') no-repeat;
+	height: 65vh
+}
+
+.emotionPosters {
+  background: url('../images/background/emotion.jpg') no-repeat;
 	height: 65vh
 }
 
@@ -932,6 +938,7 @@ footer .footer-copyright {
 	.farestart,
 	.sweSalmon,
 	.dfa,
+	.emotionPosters,
 	.shinyApp,
 	.myPortfolio
  {
