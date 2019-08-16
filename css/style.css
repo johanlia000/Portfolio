@@ -21,13 +21,24 @@ body {
 
 /*- These are for the project pages!!!!!-*/
 .oneCol {
-  column-count: 1;
-  column-rule-width: 10px;
-	padding-left: 250px;
-	padding-right: 250px;
-	padding-top: 22px;
-  padding-bottom: 32px;
+	width: 100%;
+	padding-left: 20%;
+	padding-right: 20%;
+	margin-right: 0px;
+	margin-left: 0px;
 }
+
+@media screen and (max-width: 600px) {
+	.oneCol {
+		width: 100%;
+		padding-left: 10%;
+		padding-right: 10%;
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+
+}
+
 
 .info {
   column-count: 1;
@@ -56,32 +67,71 @@ body {
   padding-bottom: 0px;
 }
 
+/* These are for the takeaways*/
 .picture-2-left {
-  width: 300px;
+  width: 50%;
   padding-left: 0px;
+	padding-right: 1.5%;
   float: left;
 	margin-right: 0px;
 }
 
 .picture-2-right {
-  width: 300px;
-  padding-right: 0px;
+  width: 50%;
+  padding-left: 1.5%;
   float: right;
 	margin-left: 0px;
 }
 
+@media screen and (max-width: 600px) {
+	.picture-2-left {
+	  width: 100%;
+		padding-left: 2%;
+		padding-right: 2%;
+		padding-top: 2%;
+	}
+
+	.picture-2-right {
+	  width: 100%;
+		padding-left: 2%;
+		padding-right: 2%;
+		padding-top: 2%;
+	}
+}
+
+
+
+
+/* These are for the icons from the portfolio goals*/
 .icon-2-left {
-  width: 200px;
-  padding-left: 50px;
+  width: 26%;
+  padding-left: 5%;
   float: left;
-	margin-right: 0px;
+	margin-right: 10%;
 }
 
 .icon-2-right {
-  width: 400px;
+  width: 62%;
   padding-right: 0px;
   float: right;
 	margin-left: 0px;
+}
+
+@media screen and (max-width: 600px) {
+	.icon-2-left {
+	  width: 100%;
+	  padding-left: 5%;
+	  float: left;
+		margin-right: 5%;
+	}
+
+	.icon-2-right {
+	  width: 100%;
+	  padding-right: 5%;
+	  float: right;
+		margin-left: 5%;
+	}
+
 }
 
 .columnThree {
