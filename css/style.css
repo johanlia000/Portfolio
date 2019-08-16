@@ -92,28 +92,49 @@ body {
 
 
 
-/*- These are for the about me page-*/
+/*- These are for the ABOUT ME page-*/
 .oneColAbout {
   column-count: 1;
   column-rule-width: 10px;
-	padding-left: 260px;
-	padding-right: 180px;
+	padding-left: 20%;
+	padding-right: 20%;
 	padding-top: 22px;
   padding-bottom: 32px;
 }
 
 .column-2-left {
-  width: 650px;
-  padding-left: 260px;
+  width: 50%;
+	padding-left: 18%;
+	padding-right: 3%;
   float: left;
 	margin-right: 0px;
 }
 
 .column-2-right {
-  width: 700px;
-  padding-right: 260px;
+  width: 50%;
+	padding-right: 18%;
+	padding-left: 3%;
   float: right;
 	margin-left: 0px;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column-2-left {
+    width: 100%;
+		padding-left: 10%;
+		padding-right: 10%;
+	  float: left;
+		margin-right: 0px;
+  }
+
+	.column-2-right {
+		width: 100%;
+		padding-left: 10%;
+		padding-right: 10%;
+	  float: left;
+		margin-right: 0px;
+	}
 }
 
 
@@ -834,7 +855,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 footer {
-    background: #000;
+    background: #218FA3;
     color: #ffffff;
     padding: 80px 0px;
     position: relative;
@@ -900,8 +921,8 @@ footer .footer-copyright {
 }
 
 .social-icon li a {
-    border: 2px solid #292929;
-    color: #292929;
+    border: 2px solid #ffffff;
+    color: #ffffff;
     border-radius: 100px;
     cursor: pointer;
     font-size: 16px;
@@ -917,8 +938,8 @@ footer .footer-copyright {
 }
 
 .social-icon li a:hover {
-    border-color: #bfba55;
-    color: #bfba55;
+    border-color: #F2CB05;
+    color: #F2CB05;
     transform: scale(1.1);
 }
 
