@@ -42,18 +42,18 @@ body {
 
 .info {
   column-count: 1;
-  column-rule-width: 10px;
-	padding-left: 140px;
-	padding-right: 140px;
-	padding-top: 22px;
-  padding-bottom: 32px;
+  column-rule-width: 10%;
+	padding-left: 25%;
+	padding-right: 25%;
+	padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .info2 {
   column-count: 1;
-  column-rule-width: 10px;
-	padding-left: 40px;
-	padding-right: 40px;
+  column-rule-width: 10%;
+	padding-left: 10%;
+	padding-right: 10%;
 	padding-top: 0px;
   padding-bottom: 0px;
 }
@@ -98,7 +98,6 @@ body {
 		padding-top: 2%;
 	}
 }
-
 
 
 
@@ -174,6 +173,30 @@ body {
 		width: 100%;
 		padding-left: 10%;
 		padding-right: 10%;
+	  float: left;
+		margin-right: 0px;
+	}
+}
+
+
+
+/*- These are for the ABOUT ME page-*/
+
+.nextButtonsCol {
+  width: 100%;
+	padding-left: 10%;
+	padding-right: 10%;
+  float: left;
+	margin-right: 0px;
+}
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+	.nextButtonsCol {
+	  width: 100%;
+		padding-left: 5%;
+		padding-right: 5%;
 	  float: left;
 		margin-right: 0px;
 	}
