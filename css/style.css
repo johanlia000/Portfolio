@@ -100,6 +100,40 @@ body {
 }
 
 
+.unequal-left {
+  width: 60%;
+  padding-left: 0px;
+	padding-right: 1.5%;
+  float: left;
+	margin-right: 0px;
+}
+
+.unequal-right {
+  width: 40%;
+  padding-left: 1.5%;
+  float: right;
+	margin-left: 0px;
+}
+
+@media screen and (max-width: 600px) {
+	.unequal-left {
+	  width: 100%;
+	  padding-left: 2%;
+		padding-right: 2%;
+	  float: left;
+		margin-right: 0px;
+	}
+
+	.unequal-right {
+	  width: 100%;
+	  padding-left: 2%;
+		padding-right: 2%;
+	  float: right;
+		margin-left: 0px;
+	}
+}
+
+
 
 /* These are for the icons from the portfolio goals*/
 .icon-2-left {
