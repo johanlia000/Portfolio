@@ -359,6 +359,7 @@ a:hover, a:active, a:focus {
 .sweSalmon,
 .dfa,
 .emotionPosters,
+.stickerIcons,
 .shinyApp,
 .myPortfolio
 {
@@ -601,6 +602,11 @@ a:hover, a:active, a:focus {
 
 .emotionPosters {
   background: url('../images/background/emotion.jpg') no-repeat;
+	height: 65vh
+}
+
+.stickerIcons {
+  background: url('../images/background/stickers.jpg') no-repeat;
 	height: 65vh
 }
 
@@ -1059,6 +1065,7 @@ footer .footer-copyright {
 	.sweSalmon,
 	.dfa,
 	.emotionPosters,
+	.stickerIcons,
 	.shinyApp,
 	.myPortfolio
  {
