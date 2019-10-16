@@ -361,7 +361,8 @@ a:hover, a:active, a:focus {
 .emotionPosters,
 .stickerIcons,
 .shinyApp,
-.myPortfolio
+.myPortfolio,
+.plantSight
 {
   height: 65vh;
 }
@@ -586,6 +587,11 @@ a:hover, a:active, a:focus {
 
 .tommiApp {
   background: url('../images/background/tommiBalance.jpg') no-repeat;
+	height: 65vh
+}
+
+.plantSight {
+  background: url('../images/background/plants.jpg') no-repeat;
 	height: 65vh
 }
 
@@ -1067,7 +1073,8 @@ footer .footer-copyright {
 	.emotionPosters,
 	.stickerIcons,
 	.shinyApp,
-	.myPortfolio
+	.myPortfolio,
+	.plantSight
  {
     height: 35vh;
   }
