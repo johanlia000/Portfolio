@@ -362,7 +362,8 @@ a:hover, a:active, a:focus {
 .stickerIcons,
 .shinyApp,
 .myPortfolio,
-.plantSight
+.plantSight,
+.HCDE318
 {
   height: 65vh;
 }
@@ -592,6 +593,11 @@ a:hover, a:active, a:focus {
 
 .plantSight {
   background: url('../images/background/plants.jpg') no-repeat;
+	height: 65vh
+}
+
+.HCDE318 {
+  background: url('../images/background/seattleNight.jpg') no-repeat;
 	height: 65vh
 }
 
@@ -1074,7 +1080,8 @@ footer .footer-copyright {
 	.stickerIcons,
 	.shinyApp,
 	.myPortfolio,
-	.plantSight
+	.plantSight,
+	.HCDE318
  {
     height: 35vh;
   }
