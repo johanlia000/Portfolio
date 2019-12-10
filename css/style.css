@@ -18,6 +18,34 @@ body {
     Lia Messing with column
 -----------------------------------------*/
 
+.slides {
+     width:  90%;
+     height: 400px;
+}
+
+.btn {
+	border: none;
+	background-color: #F29F05;
+	padding: 8px 18px;
+  font-size: 13px;
+	color: white;
+	cursor: pointer;
+	left: 20%;
+	margin-top: 10px;
+	border-radius: 12px;
+}
+
+.success {
+		color: white;
+}
+
+.success:hover {
+		background-color: #151934;
+		color: white;
+}
+
+
+
 
 /*- These are for the project pages!!!!!-*/
 .oneCol {
@@ -36,7 +64,6 @@ body {
 		margin-right: 0px;
 		margin-left: 0px;
 	}
-
 }
 
 
